@@ -3,7 +3,7 @@
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
  * print_unsigned - Prints an unsigned number
- * @types: List a of arguments
+ * @types: List of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
@@ -94,7 +94,7 @@
 	return (print_hexa(types, "0123456789abcdef", buffer,
 		flags, 'x', width, precision, size));
 }
-/************* PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL **************/
+/***** PRINT UNSIGNED NUMBER IN UPPER HEXADECIMAL ********/
 /**
  * print_hexa_upper - Prints an unsigned number in upper hexadecimal notation
  * @types: Lista of arguments
@@ -111,7 +111,7 @@
 	return (print_hexa(types, "0123456789ABCDEF", buffer,
 		flags, 'X', width, precision, size));
 }
-/************** PRINT HEXX NUM IN LOWER OR UPPER **************/
+/*** PRINT HEXX NUM IN LOWER OR UPPER ****/
 /**
  * print_hexa - Prints a hexadecimal number in lower or upper
  * @types: Lista of arguments
